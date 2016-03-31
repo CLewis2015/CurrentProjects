@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+}
+header {
+    margin: 0;
+    background-color: #0a0;
+    padding: 0.25% 20%;
+}
+#gen {
+    margin: 0;
+    padding: 0.25% 20%;
+    background-color: antiquewhite;
+}
+#board {
+    margin: 0;
+    padding: 0.25% 20%;
+    background-color: #ff1;
+}
+#problems {
+    text-align: right;
+}
+#answers {
+    text-align: left;    
+}
+#answers input {
+    display: block;    
+}

@@ -1,0 +1,58 @@
+<!DOCTYPEhtml>
+<html lang = "en">
+<head>
+    <meta charset = "utf-8">
+    <title> Math Challenge </title>
+    <link type="text/css" href="../jquery-ui-1.11.4.custom/jquery-ui.css" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="math.css">
+    </head>
+    <body>
+        <header><h1>Math Challenge</h1>
+           
+        </header>
+        
+        <section id="gen">
+            <form id="form">
+                 <div id="radio"> 
+    <input type="radio" id="radio1" name="operator" value="add"/>
+        <label for="radio1">ADD</label>
+    <input type="radio" id="radio2" name="operator" value="subtract"/>
+        <label for="radio2">SUBTRACT</label>
+    <input type="radio" id="radio3" name="operator" value="multiply"/>
+        <label for="radio3">MULTIPLY</label>
+    <input type="radio" id="radio4" name="operator" value="divide"/>
+        <label for="radio4">DIVIDE</label>   
+            </div>
+                
+        <h4>What number do you want to use?</h4><input type="number" max="12" id="userNumber"><h4>Click go to begin.</h4>
+                <input type="submit" value="Go!">
+                </form>
+            
+            <h3>Time:<span id="time"></span></h3>
+        </section>
+        
+        <section id="board">
+    <table>
+        <tr> 
+            <td>
+        <ul id="problems">
+        
+        </ul>
+                </td>
+            <td>
+        
+        <form id="answers">
+           
+           
+            </form>
+        
+            </td>
+            </tr>
+        </table>
+        </section>
+        <script src="../jquery-1.11.3.js"></script>
+        <script src="../jquery-ui-1.11.4.custom/jquery-ui.js"></script>
+        <script src="utilities.js"></script>
+        <script src="math.js"></script>
+    </body>
+</html>
